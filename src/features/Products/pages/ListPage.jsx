@@ -14,17 +14,12 @@ const useStyles = makeStyles(theme => ({
     root: {},
 
     left: {
-        width: "250px"
+        width: "250px",
+        marginTop: '16px'
     },
     right: { 
         flex: '1'
     },
-    pagination: {
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: '20px',
-        paddingBottom: '15px'
-    }
 }))
 function ListPage() {
     const classes = useStyles();
